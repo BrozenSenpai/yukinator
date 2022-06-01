@@ -1,5 +1,5 @@
 # yukinator
-![actions](https://github.com/BrozenSenpai/yukinator/actions/workflows/python-package.yml/badge.svg)
+![actions](https://github.com/BrozenSenpai/yukinator/actions/workflows/python-package.yml/badge.svg)[![Documentation Status](https://readthedocs.org/projects/yukinator/badge/?version=latest)](https://yukinator.readthedocs.io/en/latest/?badge=latest)
 
 Unofficial API wrapper for [Ergast API](http://ergast.com/mrd/). 
 

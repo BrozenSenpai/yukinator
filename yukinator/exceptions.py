@@ -9,4 +9,4 @@ class WrongDirectory(Exception):
     """Raised when the directory for cache does not exist."""
 
     def __str__(self):
-        return "The provider directory for a cache does not exist."
+        return "The provided directory for a cache does not exist."
