@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "yukinator"
-version = "0.1.0"
+version = "0.1.1"
 description = "Unofficial Ergast API wrapper"
 authors = ["brozen <szymon.mazurkievicz@gmail.com>"]
 license = "MIT"
 homepage = "https://github.com/BrozenSenpai/yukinator"
+documentation = "https://yukinator.readthedocs.io/en/latest/"
 keywords = ["Ergast API"]
 readme = "README.md"
 
