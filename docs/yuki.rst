@@ -1,7 +1,7 @@
 Main class
 ==========
 
-.. automodule:: yukinator
+.. automodule:: yukinator.yukinator
    :members:
    :undoc-members:
    :show-inheritance:
