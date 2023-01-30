@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "yukinator"
-version = "0.1.1"
+version = "0.1.2"
 description = "Unofficial Ergast API wrapper"
 authors = ["brozen <szymon.mazurkievicz@gmail.com>"]
 license = "MIT"
@@ -11,11 +11,11 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-attrs = "^21.4.0"
-requests-cache = "^0.9.4"
+attrs = "^22.2.0"
+requests-cache = "^0.9.8"
 
 [tool.poetry.dev-dependencies]
-pytest = "^7.1"
+pytest = "^7.2"
 pytest-mock = "^3.6"
 
 [build-system]

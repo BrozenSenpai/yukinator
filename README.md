@@ -1,5 +1,5 @@
 # yukinator
-![actions](https://github.com/BrozenSenpai/yukinator/actions/workflows/python-package.yml/badge.svg)[![Documentation Status](https://readthedocs.org/projects/yukinator/badge/?version=latest)](https://yukinator.readthedocs.io/en/latest/?badge=latest)
+![actions](https://github.com/BrozenSenpai/yukinator/actions/workflows/python-package.yml/badge.svg)[![Documentation Status](https://readthedocs.org/projects/yukinator/badge/?version=latest)](https://yukinator.readthedocs.io/en/latest/?badge=latest)[![Downloads](https://static.pepy.tech/badge/yukinator)](https://pepy.tech/project/yukinator)
 
 Unofficial API wrapper for [Ergast API](http://ergast.com/mrd/). 
 
@@ -14,7 +14,7 @@ The name of the wrapper is Yukinator, in honor of the Japanese Formula 1 driver 
 - **Simple**: easy to use and customize:
     - object-oriented design
     - use of data transfer objects
-    - converts adequate fields from strings to the more suitable types
+    - convert adequate fields from strings to the more suitable types
 - **Lightweight**: minimal usage of the third-party packages
 
 ## Installation
