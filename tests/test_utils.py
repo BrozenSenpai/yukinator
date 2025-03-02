@@ -27,13 +27,13 @@ def test_cache_get():
 
     assert (
         type(
-            Cache.cache_get("https://ergast.com/api/f1/1995/4/drivers.json?limit=1000")
+            Cache.cache_get("https://api.jolpi.ca/ergast/f1/1995/4/drivers.json?limit=1000")
         )
         == requests.models.Response
     )
     assert (
         type(
-            Cache.cache_get("https://ergast.com/api/f1/1995/4/drivers.json?limit=1000")
+            Cache.cache_get("https://api.jolpi.ca/ergast/f1/1995/4/drivers.json?limit=1000")
         )
         == requests_cache.models.response.CachedResponse
     )
