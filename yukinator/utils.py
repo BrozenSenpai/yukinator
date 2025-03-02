@@ -26,7 +26,7 @@ class Cache:
         """
         if not os.path.exists(path):
             raise WrongDirectory()
-        return os.path.join(path, "yuki_cache")
+        return os.path.normpath(os.path.join(path, "yuki_cache"))
 
     @classmethod
     def cache_enable(

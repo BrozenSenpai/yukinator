@@ -1,4 +1,5 @@
 import json
+import os
 from http import HTTPStatus
 
 import pytest
@@ -22,7 +23,7 @@ def test_build_url(args, result):
 
 @pytest.fixture
 def fake_response():
-    with open("tests/resources/drivers.json") as f:
+    with open(os.path.join(os.path.dirname(__file__), "resources", "drivers.json")) as f:
         return json.load(f)
 
 
@@ -40,7 +41,7 @@ def test_make_request_witout_caching(mocker, fake_response):
 
 @pytest.fixture
 def fake_wrong_response():
-    with open("tests/resources/wrong_request.json") as f:
+    with open(os.path.join(os.path.dirname(__file__), "resources", "wrong_request.json")) as f:
         return json.load(f)
 
 
@@ -58,7 +59,7 @@ def test_make_request_with_wrong_query(mocker, fake_wrong_response):
 
 @pytest.fixture
 def races_response():
-    with open("tests/resources/races.json") as f:
+    with open(os.path.join(os.path.dirname(__file__), "resources", "races.json")) as f:
         return json.load(f)
 
 

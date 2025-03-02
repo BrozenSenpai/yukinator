@@ -8,7 +8,9 @@ from yukinator.exceptions import WrongDirectory
 
 
 def test_path_create():
-    expected_output = "tests/resources/yuki_cache"
+    import os
+    # Normalize the expected path so it matches OS-specific path separators
+    expected_output = os.path.normpath("tests/resources/yuki_cache")
     assert Cache.path_create("tests/resources") == expected_output
     assert Cache.path_create("tests/resources/") == expected_output
 

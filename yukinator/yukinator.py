@@ -1,6 +1,6 @@
+from typing import Union
 import requests
 import os
-from typing import Union
 
 from .exceptions import WrongQueryParameters
 from .utils import Cache, flat_dict
