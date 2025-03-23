@@ -1,6 +1,7 @@
+from typing import Union
+
 import requests
 import os
-from typing import Union
 
 from .exceptions import WrongQueryParameters
 from .utils import Cache, flat_dict
@@ -38,7 +39,7 @@ class Yuki:
     |  Please take care while calling the methods within a loop.
     """
 
-    _base_url = "https://ergast.com/api/f1/"
+    _base_url = "https://api.jolpi.ca/ergast/f1/"
 
     def __init__(
         self,
