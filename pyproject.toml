@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "yukinator"
-version = "0.1.2"
+version = "0.1.3"
 description = "Unofficial Ergast API wrapper"
 authors = ["brozen <szymon.mazurkievicz@gmail.com>"]
 license = "MIT"

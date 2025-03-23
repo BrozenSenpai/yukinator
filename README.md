@@ -1,7 +1,7 @@
 # yukinator
 ![actions](https://github.com/BrozenSenpai/yukinator/actions/workflows/python-package.yml/badge.svg)[![Documentation Status](https://readthedocs.org/projects/yukinator/badge/?version=latest)](https://yukinator.readthedocs.io/en/latest/?badge=latest)[![Downloads](https://static.pepy.tech/badge/yukinator)](https://pepy.tech/project/yukinator)
 
-Unofficial API wrapper for [Ergast API](http://ergast.com/mrd/). 
+Unofficial API wrapper for [Ergast API](http://ergast.com/mrd/). Since the shutdown of the Ergast API, the library has been using the [Jolpica F1 API](https://github.com/jolpica/jolpica-f1) (thank you https://github.com/assenzostefano for the update).
 
 Created mainly for learning purposes. There are already at least two other wrappers worth checking: [fastF1](https://github.com/theOehrly/Fast-F1) -  a swiss army knife for F1-related analyses, [pyErgast](https://github.com/weiranyu/pyErgast) - a neat pandas wrapper.
 
